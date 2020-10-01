@@ -1,0 +1,50 @@
+[
+    {
+        "base": [
+            "rocker/shiny:4.0.1"
+        ],
+        "name": [
+            "DockerPlumber"
+        ],
+        "workdir": [
+            "/"
+        ]
+    },
+    {
+        "apt_get": [
+            "sudo",
+            "gdebi-core",
+            "pandoc",
+            "pandoc-citeproc",
+            "libcurl4-gnutls-dev",
+            "libcairo2-dev",
+            "libxt-dev",
+            "xtail",
+            "wget",
+            "libssl-dev",
+            "libxml2-dev",
+            "python3-venv",
+            "libpq-dev",
+            "libsodium-dev",
+            "libudunits2-dev",
+            "libgdal-dev",
+            "systemctl",
+            "git",
+            "libssh2-1",
+            "libssh2-1-dev",
+            "unzip",
+            "curl"
+        ]
+    },
+    {
+        "packages": [
+            "shiny"
+        ],
+        "renv": {
+
+        }
+    },
+    [
+        "app.R"
+    ]
+]
