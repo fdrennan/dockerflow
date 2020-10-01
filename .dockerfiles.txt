@@ -3285,3 +3285,54 @@ Step 5/5 : COPY ./app.R ./app.R
  ---> 24ac8bce78ca
 Successfully built 24ac8bce78ca
 Successfully tagged dockerplumber:latest
+Sending build context to Docker daemon  2.207MB
+Step 1/5 : FROM rocker/shiny:4.0.1
+ ---> 7c05757b2ae7
+Step 2/5 : WORKDIR /
+ ---> Using cache
+ ---> 3d2d555a5f42
+Step 3/5 : RUN apt-get update --allow-releaseinfo-change -qq && apt-get install -y  	sudo 	gdebi-core 	pandoc 	pandoc-citeproc 	libcurl4-gnutls-dev 	libcairo2-dev 	libxt-dev 	xtail 	wget 	libssl-dev 	libxml2-dev 	python3-venv 	libpq-dev 	libsodium-dev 	libudunits2-dev 	libgdal-dev 	systemctl 	git 	libssh2-1 	libssh2-1-dev 	unzip 	curl
+ ---> Using cache
+ ---> 7c3faa511eed
+Step 4/5 : RUN R -e "install.packages('shiny', dependencies = TRUE)"
+ ---> Using cache
+ ---> e31893b3846d
+Step 5/5 : COPY ./app.R ./app.R
+ ---> Using cache
+ ---> 24ac8bce78ca
+Successfully built 24ac8bce78ca
+Successfully tagged dockerplumber:latest
+Sending build context to Docker daemon  2.208MB
+Step 1/5 : FROM rocker/shiny:4.0.1
+ ---> 7c05757b2ae7
+Step 2/5 : WORKDIR /
+ ---> Using cache
+ ---> 3d2d555a5f42
+Step 3/5 : RUN apt-get update --allow-releaseinfo-change -qq && apt-get install -y  	sudo 	gdebi-core 	pandoc 	pandoc-citeproc 	libcurl4-gnutls-dev 	libcairo2-dev 	libxt-dev 	xtail 	wget 	libssl-dev 	libxml2-dev 	python3-venv 	libpq-dev 	libsodium-dev 	libudunits2-dev 	libgdal-dev 	systemctl 	git 	libssh2-1 	libssh2-1-dev 	unzip 	curl
+ ---> Using cache
+ ---> 7c3faa511eed
+Step 4/5 : RUN R -e "install.packages('shiny', dependencies = TRUE)"
+ ---> Using cache
+ ---> e31893b3846d
+Step 5/5 : COPY ./app.R ./app.R
+ ---> Using cache
+ ---> 24ac8bce78ca
+Successfully built 24ac8bce78ca
+Successfully tagged dockerplumber:latest
+Sending build context to Docker daemon  2.206MB
+Step 1/5 : FROM rocker/shiny:4.0.1
+ ---> 7c05757b2ae7
+Step 2/5 : WORKDIR /
+ ---> Using cache
+ ---> 3d2d555a5f42
+Step 3/5 : RUN apt-get update --allow-releaseinfo-change -qq && apt-get install -y  	sudo 	gdebi-core 	pandoc 	pandoc-citeproc 	libcurl4-gnutls-dev 	libcairo2-dev 	libxt-dev 	xtail 	wget 	libssl-dev 	libxml2-dev 	python3-venv 	libpq-dev 	libsodium-dev 	libudunits2-dev 	libgdal-dev 	systemctl 	git 	libssh2-1 	libssh2-1-dev 	unzip 	curl
+ ---> Using cache
+ ---> 7c3faa511eed
+Step 4/5 : RUN R -e "install.packages('shiny', dependencies = TRUE)"
+ ---> Using cache
+ ---> e31893b3846d
+Step 5/5 : COPY ./app.R ./app.R
+ ---> Using cache
+ ---> 24ac8bce78ca
+Successfully built 24ac8bce78ca
+Successfully tagged dockerplumber:latest
